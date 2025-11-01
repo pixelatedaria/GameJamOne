@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour {
     //Rotation and look
     private float xRotation;
     private float sensitivity = 50f;
-    private float sensMultiplier = 1f;
+    public float sensMultiplier = 1f;
     
     //Movement
     public float moveSpeed = 4500;
